@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+/* Ocultamos el checkbox */
+#toggle {
+    display: none;
+}
+
+/* Botón */
+label {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+label:hover {
+    background-color: #45a049;
+}
+
+/* Texto oculto por defecto */
+.texto {
+    margin-top: 20px;
+    display: none;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Mostrar texto cuando el checkbox está marcado */
+#toggle:checked + label + .texto {
+    display: block;
+}

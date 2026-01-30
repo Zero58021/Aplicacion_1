@@ -1,0 +1,12 @@
+.texto-visible {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+}
+::ng-deep .boton {
+  --background: red;
+  --color: white;
+  --border-radius: 8px;
+  --margin: 0 auto;
+}
