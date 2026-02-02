@@ -15,6 +15,12 @@
   <ion-button expand="block" class="boton" (click)="toggleText()">
     {{ showText ? 'Ocultar texto' : 'Mostrar texto' }}
   </ion-button>
+  <div class="ion-text-center">
+    <ion-avatar class="foto-centrada">
+      <img alt="Foto de Guts" src="assets/fotos/descarga.png" />
+    </ion-avatar>
+  </div>
+  
 
   <div *ngIf="showText" class="texto-visible">
     Hola Mundo Angular :D
